@@ -4,11 +4,11 @@ using namespace std;
 typedef long long int ll;
 typedef unsigned long long ull;
 #define UNASSIGNED 0  
-
 //n is used for the size of Sudoku grid.  
 //Size will be nxn
 #define n 9  
 // } Driver Code Ends
+
 class Solution 
 {
     public:
@@ -54,8 +54,6 @@ class Solution
         
     }
 };
-
-//{ Driver Code Starts.
 
 int main(){
 	int grid[n][n];	
